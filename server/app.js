@@ -20,6 +20,11 @@ app.use(
 );
 app.use(express.json());
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ message: 'Stock Broker API is running' });
+});
+
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/stocks', stockRoutes);
