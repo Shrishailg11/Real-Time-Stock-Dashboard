@@ -8,9 +8,7 @@ client/dist/
 server/dist/
 *.log
 
-# Env files (never commit secrets)
 .env
-.env.local
 .env.development
 .env.production
 server/.env
@@ -19,8 +17,3 @@ client/.env.local
 client/.env.development
 client/.env.production
 
-# OS / editor junk
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
